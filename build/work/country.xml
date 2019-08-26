@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<countries>
+    <country area="647500" code="AF" iso="4" latitude="33.0000" longitude="65.0000" name="Afghanistan" population="22664136">
+        <language percentage="11">Turkic</language>
+        <language percentage="35">Pashtu</language>
+        <language percentage="50">Afghan Persian</language>
+    </country>
+    <country area="28750" code="AL" iso="8" latitude="41.0000" longitude="20.0000" name="Albania" population="3249136"/>
+    <country area="2381740" code="DZ" iso="12" latitude="28.0000" longitude="3.0000" name="Algeria" population="29183032">
+        <city>
+            <name>Algiers</name>
+            <population>1507241</population>
+        </city>
+    </country>
+    <country area="199" code="AS" iso="16" latitude="-14.3333" longitude="-170.0000" name="American Samoa" population="59566"/>
+    <country area="450" code="AD" iso="20" latitude="42.5000" longitude="1.5000" name="Andorra" population="72766"/>
+    <country area="1246700" code="AO" iso="24" latitude="-12.5000" longitude="18.5000" name="Angola" population="10342899"/>
+    <country area="91" code="AI" iso="660" latitude="18.2500" longitude="-63.1667" name="Anguilla" population="10424">
+        <language percentage="100">English</language>
+    </country>
+    <country area="2766890" code="AR" iso="32" latitude="-34.0000" longitude="-64.0000" name="Argentina" population="34672996">
+        <city>
+            <name>La Matanza</name>
+            <population>1111811</population>
+        </city>
+        <city>
+            <name>Cordoba</name>
+            <population>1208713</population>
+        </city>
+        <city>
+            <name>Rosario</name>
+            <population>1118984</population>
+        </city>
+        <city>
+            <name>Buenos Aires</name>
+            <population>2988006</population>
+        </city>
+    </country>
+    <country area="29800" code="AM" iso="51" latitude="40.0000" longitude="45.0000" name="Armenia" population="3463574">
+        <city>
+            <name>Yerevan</name>
+            <population>1200000</population>
+        </city>
+        <language percentage="2">Russian</language>
+        <language percentage="96">Armenian</language>
+    </country>
+    <country area="193" code="AW" iso="533" latitude="12.5000" longitude="-69.9667" name="Aruba" population="67794"/>
+    <country area="7686850" code="AU" iso="36" latitude="-27.0000" longitude="133.0000" name="Australia" population="18260864">
+        <city>
+            <name>Sydney</name>
+            <population>3657000</population>
+        </city>
+        <city>
+            <name>Brisbane</name>
+            <population>1302000</population>
+        </city>
+        <city>
+            <name>Adelaide</name>
+            <population>1050000</population>
+        </city>
+        <city>
+            <name>Melbourne</name>
+            <population>3081000</population>
+        </city>
+        <city>
+            <name>Perth</name>
+            <population>1193000</population>
+        </city>
+        <language percentage="100">English</language>
+    </country>
+    <country area="83850" code="AT" iso="40" latitude="47.3333" longitude="13.3333" name="Austria" population="8023244">
+        <city>
+            <name>Vienna</name>
+            <population>1583000</population>
+        </city>
+        <language percentage="100">German</language>
+    </country>
+    <country area="86600" code="AZ" iso="31" latitude="40.5000" longitude="47.5000" name="Azerbaijan" population="7676953">
+        <city>
+            <name>Baku</name>
+            <population>1740000</population>
+        </city>
+        <language percentage="3">Russian</language>
+        <language percentage="2">Armenian</language>
+        <language percentage="89">Azeri</language>
+    </country>
+    <country area="13940" code="BS" iso="44" latitude="24.2500" longitude="-76.0000" name="Bahamas" population="259367"/>
+    <country area="620" code="BH" iso="48" latitude="26.0000" longitude="50.5500" name="Bahrain" population="590042"/>
+    <country area="144000" code="BD" iso="50" latitude="24.0000" longitude="90.0000" name="Bangladesh" population="123062800">
+        <city>
+            <name>Dhaka</name>
+            <population>3839000</population>
+        </city>
+        <city>
+            <name>Chittagong</name>
+            <population>1599000</population>
+        </city>
+    </country>
+    <country area="430" code="BB" iso="52" latitude="13.1667" longitude="-59.5333" name="Barbados" population="257030">
+        <language percentage="100">English</language>
+    </country>
+    <country area="207600" code="BY" iso="112" latitude="53.0000" longitude="28.0000" name="Belarus" population="10415973">
+        <city>
+            <name>Minsk</name>
+            <population>1540000</population>
+        </city>
+    </country>
+    <country area="30510" code="BE" iso="56" latitude="50.8333" longitude="4.0000" name="Belgium" population="10170241">
+        <language percentage="32">French</language>
+        <language percentage="1">German</language>
+        <language percentage="56">Dutch</language>
+    </country>
+    <country area="22960" code="BZ" iso="84" latitude="17.2500" longitude="-88.7500" name="Belize" population="219296"/>
+    <country area="112620" code="BJ" iso="204" latitude="9.5000" longitude="2.2500" name="Benin" population="5709529"/>
+    <country area="50" code="BM" iso="60" latitude="32.3333" longitude="-64.7500" name="Bermuda" population="62099">
+        <language percentage="100">English</language>
+    </country>
+    <country area="47000" code="BT" iso="64" latitude="27.5000" longitude="90.5000" name="Bhutan" population="1822625"/>
+    <country area="1098580" code="BO" iso="68" latitude="-17.0000" longitude="-65.0000" name="Bolivia" population="7165257"/>
+    <country area="600370" code="BW" iso="72" latitude="-22.0000" longitude="24.0000" name="Botswana" population="1477630"/>
+    <country area="8511965" code="BR" iso="76" latitude="-10.0000" longitude="-55.0000" name="Brazil" population="162661216">
+        <city>
+            <name>Manaus</name>
+            <population>1158265</population>
+        </city>
+        <city>
+            <name>Salvador</name>
+            <population>2209465</population>
+        </city>
+        <city>
+            <name>Fortaleza</name>
+            <population>1967365</population>
+        </city>
+        <city>
+            <name>Belo Horizonte</name>
+            <population>2091770</population>
+        </city>
+        <city>
+            <name>Belem</name>
+            <population>1142258</population>
+        </city>
+        <city>
+            <name>Curitiba</name>
+            <population>1465698</population>
+        </city>
+        <city>
+            <name>Recife</name>
+            <population>1342877</population>
+        </city>
+        <city>
+            <name>Rio de Janeiro</name>
+            <population>5533011</population>
+        </city>
+        <city>
+            <name>Porto Alegre</name>
+            <population>1286251</population>
+        </city>
+        <city>
+            <name>Sao Paulo</name>
+            <population>9811776</population>
+        </city>
+        <city>
+            <name>Brasilia</name>
+            <population>1817001</population>
+        </city>
+    </country>
+    <country area="110910" code="BG" iso="100" latitude="43.0000" longitude="25.0000" name="Bulgaria" population="8612757">
+        <city>
+            <name>Sofia</name>
+            <population>1300000</population>
+        </city>
+        <language percentage="100">Bulgarian</language>
+    </country>
+    <country area="274200" code="BF" iso="854" latitude="13.0000" longitude="-2.0000" name="Burkina Faso" population="10623323"/>
+    <country area="27830" code="BI" iso="108" latitude="-3.5000" longitude="30.0000" name="Burundi" population="5943057"/>
+    <country area="181040" code="KH" iso="116" latitude="13.0000" longitude="105.0000" name="Cambodia" population="10861218"/>
+    <country area="475440" code="CM" iso="120" latitude="6.0000" longitude="12.0000" name="Cameroon" population="14261557"/>
+    <country area="9976140" code="CA" iso="124" latitude="60.0000" longitude="-95.0000" name="Canada" population="28820672">
+        <city>
+            <name>Montreal</name>
+            <population>1017666</population>
+        </city>
+    </country>
+    <country area="4030" code="CV" iso="132" latitude="16.0000" longitude="-24.0000" name="Cape Verde" population="449066"/>
+    <country area="260" code="KY" iso="136" latitude="19.5000" longitude="-80.5000" name="Cayman Islands" population="34646">
+        <language percentage="100">English</language>
+    </country>
+    <country area="622980" code="CF" iso="140" latitude="7.0000" longitude="21.0000" name="Central African Republic" population="3274426"/>
+    <country area="1284000" code="TD" iso="148" latitude="15.0000" longitude="19.0000" name="Chad" population="6976845"/>
+    <country area="756950" code="CL" iso="152" latitude="-30.0000" longitude="-71.0000" name="Chile" population="14333258">
+        <city>
+            <name>Santiago</name>
+            <population>4318000</population>
+        </city>
+        <language percentage="100">Spanish</language>
+    </country>
+    <country area="9596960" code="CN" iso="156" latitude="35.0000" longitude="105.0000" name="China" population="1210004992">
+        <city>
+            <name>Hong Kong</name>
+            <population>6218000</population>
+        </city>
+        <city>
+            <name>Hefei</name>
+            <population>1000000</population>
+        </city>
+        <city>
+            <name>Huainan</name>
+            <population>1200000</population>
+        </city>
+        <city>
+            <name>Lanzhou</name>
+            <population>1510000</population>
+        </city>
+        <city>
+            <name>Guangzhou</name>
+            <population>3580000</population>
+        </city>
+        <city>
+            <name>Guiyang</name>
+            <population>1530000</population>
+        </city>
+        <city>
+            <name>Shijiazhuang</name>
+            <population>1320000</population>
+        </city>
+        <city>
+            <name>Tangshan</name>
+            <population>1500000</population>
+        </city>
+        <city>
+            <name>Handan</name>
+            <population>1110000</population>
+        </city>
+        <city>
+            <name>Harbin</name>
+            <population>2830000</population>
+        </city>
+        <city>
+            <name>Qiqihar</name>
+            <population>1380000</population>
+        </city>
+        <city>
+            <name>Zhengzhou</name>
+            <population>1710000</population>
+        </city>
+        <city>
+            <name>Luoyang</name>
+            <population>1190000</population>
+        </city>
+        <city>
+            <name>Wuhan</name>
+            <population>3750000</population>
+        </city>
+        <city>
+            <name>Changsha</name>
+            <population>1330000</population>
+        </city>
+        <city>
+            <name>Nanjing</name>
+            <population>2500000</population>
+        </city>
+        <city>
+            <name>Fuzhou</name>
+            <population>1290000</population>
+        </city>
+        <city>
+            <name>Nanchang</name>
+            <population>1350000</population>
+        </city>
+        <city>
+            <name>Jilin</name>
+            <population>1270000</population>
+        </city>
+        <city>
+            <name>Changchun</name>
+            <population>2110000</population>
+        </city>
+        <city>
+            <name>Shenyang</name>
+            <population>4540000</population>
+        </city>
+        <city>
+            <name>Dalian</name>
+            <population>2400000</population>
+        </city>
+        <city>
+            <name>Anshan</name>
+            <population>1390000</population>
+        </city>
+        <city>
+            <name>Fushun</name>
+            <population>1350000</population>
+        </city>
+        <city>
+            <name>Xian</name>
+            <population>2760000</population>
+        </city>
+        <city>
+            <name>Jinan</name>
+            <population>2320000</population>
+        </city>
+        <city>
+            <name>Zibo</name>
+            <population>2460000</population>
+        </city>
+        <city>
+            <name>Qingdao</name>
+            <population>2060000</population>
+        </city>
+        <city>
+            <name>Taiyuan</name>
+            <population>1960000</population>
+        </city>
+        <city>
+            <name>Datong</name>
+            <population>1110000</population>
+        </city>
+        <city>
+            <name>Chengdu</name>
+            <population>2810000</population>
+        </city>
+        <city>
+            <name>Chongqing</name>
+            <population>2980000</population>
+        </city>
+        <city>
+            <name>Kunming</name>
+            <population>1520000</population>
+        </city>
+        <city>
+            <name>Hangzhou</name>
+            <population>1340000</population>
+        </city>
+        <city>
+            <name>Ningbo</name>
+            <population>1090000</population>
+        </city>
+        <city>
+            <name>Nanning</name>
+            <population>1070000</population>
+        </city>
+        <city>
+            <name>Baotou</name>
+            <population>1200000</population>
+        </city>
+        <city>
+            <name>Urumqi</name>
+            <population>1160000</population>
+        </city>
+        <city>
+            <name>Beijing</name>
+            <population>7000000</population>
+        </city>
+        <city>
+            <name>Shanghai</name>
+            <population>7830000</population>
+        </city>
+        <city>
+            <name>Tianjin</name>
+            <population>5770000</population>
+        </city>
+    </country>
+    <country area="135" code="CX" iso="162" latitude="-10.5000" longitude="105.6667" name="Christmas Island" population="813">
+        <language percentage="100">English</language>
+    </country>
+    <country area="1138910" code="CO" iso="170" latitude="4.0000" longitude="-72.0000" name="Colombia" population="36813160">
+        <city>
+            <name>Medellin</name>
+            <population>1621356</population>
+        </city>
+        <city>
+            <name>Barranquilla</name>
+            <population>1064255</population>
+        </city>
+        <city>
+            <name>Bogota</name>
+            <population>5237635</population>
+        </city>
+        <city>
+            <name>Cali</name>
+            <population>1718871</population>
+        </city>
+        <language percentage="100">Spanish</language>
+    </country>
+    <country area="2170" code="KM" iso="174" latitude="-12.1667" longitude="44.2500" name="Comoros" population="569237"/>
+    <country area="342000" code="CG" iso="178" latitude="-1.0000" longitude="15.0000" name="Congo" population="2527841"/>
+    <country area="240" code="CK" iso="184" latitude="-21.2333" longitude="-159.7667" name="Cook Islands" population="19561"/>
+    <country area="51100" code="CR" iso="188" latitude="10.0000" longitude="-84.0000" name="Costa Rica" population="3463083"/>
+    <country area="110860" code="CU" iso="192" latitude="21.5000" longitude="-80.0000" name="Cuba" population="10951334">
+        <city>
+            <name>Havana</name>
+            <population>2241000</population>
+        </city>
+        <language percentage="100">Spanish</language>
+    </country>
+    <country area="9250" code="CY" iso="196" latitude="35.0000" longitude="33.0000" name="Cyprus" population="744609"/>
+    <country area="78703" code="CZ" iso="203" latitude="49.7500" longitude="15.5000" name="Czech Republic" population="10321120">
+        <city>
+            <name>Prague</name>
+            <population>1215000</population>
+        </city>
+    </country>
+    <country area="43070" code="DK" iso="208" latitude="56.0000" longitude="10.0000" name="Denmark" population="5249632">
+        <city>
+            <name>Copenhagen</name>
+            <population>1358540</population>
+        </city>
+    </country>
+    <country area="22000" code="DJ" iso="262" latitude="11.5000" longitude="43.0000" name="Djibouti" population="427642"/>
+    <country area="750" code="DM" iso="212" latitude="15.4167" longitude="-61.3333" name="Dominica" population="82926"/>
+    <country area="48730" code="DO" iso="214" latitude="19.0000" longitude="-70.6667" name="Dominican Republic" population="8088881">
+        <city>
+            <name>Santo Domingo</name>
+            <population>1400000</population>
+        </city>
+        <language percentage="100">Spanish</language>
+    </country>
+    <country area="283560" code="EC" iso="218" latitude="-2.0000" longitude="-77.5000" name="Ecuador" population="11466291">
+        <city>
+            <name>Quito</name>
+            <population>1200000</population>
+        </city>
+        <city>
+            <name>Guayaquil</name>
+            <population>1300868</population>
+        </city>
+    </country>
+    <country area="1001450" code="EG" iso="818" latitude="27.0000" longitude="30.0000" name="Egypt" population="63575108">
+        <city>
+            <name>El Giza</name>
+            <population>1671000</population>
+        </city>
+        <city>
+            <name>Alexandria</name>
+            <population>2917000</population>
+        </city>
+        <city>
+            <name>Cairo</name>
+            <population>6053000</population>
+        </city>
+    </country>
+    <country area="21040" code="SV" iso="222" latitude="13.8333" longitude="-88.9167" name="El Salvador" population="5828987"/>
+    <country area="28050" code="GQ" iso="226" latitude="2.0000" longitude="10.0000" name="Equatorial Guinea" population="431282"/>
+    <country area="121320" code="ER" iso="232" latitude="15.0000" longitude="39.0000" name="Eritrea" population="3427883"/>
+    <country area="45100" code="EE" iso="233" latitude="59.0000" longitude="26.0000" name="Estonia" population="1459428"/>
+    <country area="1127127" code="ET" iso="210" latitude="8.0000" longitude="38.0000" name="Ethiopia" population="57171664">
+        <city>
+            <name>Addis Ababa</name>
+            <population>2316400</population>
+        </city>
+    </country>
+    <country area="1400" code="FO" iso="234" latitude="62.0000" longitude="-7.0000" name="Faroe Islands" population="43857"/>
+    <country area="18270" code="FJ" iso="242" latitude="-18.0000" longitude="175.0000" name="Fiji" population="782381"/>
+    <country area="337030" code="FI" iso="246" latitude="64.0000" longitude="26.0000" name="Finland" population="5105230">
+        <language percentage="6.3">Swedish</language>
+        <language percentage="93.5">Finnish</language>
+    </country>
+    <country area="547030" code="FR" iso="250" latitude="46.0000" longitude="2.0000" name="France" population="58317448">
+        <city>
+            <name>Paris</name>
+            <population>2152423</population>
+        </city>
+        <language percentage="100">French</language>
+    </country>
+    <country area="91000" code="GF" iso="254" latitude="4.0000" longitude="-53.0000" name="French Guiana" population="151187">
+        <language percentage="100">French</language>
+    </country>
+    <country area="4167" code="PF" iso="258" latitude="-15.0000" longitude="-140.0000" name="French Polynesia" population="224911"/>
+    <country area="267670" code="GA" iso="266" latitude="-1.0000" longitude="11.7500" name="Gabon" population="1172798"/>
+    <country area="11300" code="GM" iso="270" latitude="13.4667" longitude="-16.5667" name="Gambia" population="1204984"/>
+    <country area="69700" code="GE" iso="268" latitude="42.0000" longitude="43.5000" name="Georgia" population="5219810">
+        <city>
+            <name>Tbilisi</name>
+            <population>1200000</population>
+        </city>
+        <language percentage="9">Russian</language>
+        <language percentage="7">Armenian</language>
+        <language percentage="6">Azeri</language>
+        <language percentage="71">Georgian</language>
+    </country>
+    <country area="356910" code="DE" iso="276" latitude="51.0000" longitude="9.0000" name="Germany" population="83536112">
+        <city>
+            <name>Munchen</name>
+            <population>1244676</population>
+        </city>
+        <city>
+            <name>Muenchen</name>
+            <population>1290079</population>
+        </city>
+        <city>
+            <name>Berlin</name>
+            <population>3472009</population>
+        </city>
+        <city>
+            <name>Hamburg</name>
+            <population>1705872</population>
+        </city>
+        <language percentage="100">German</language>
+    </country>
+    <country area="238540" code="GH" iso="288" latitude="8.0000" longitude="-2.0000" name="Ghana" population="17698272"/>
+    <country area="6.5" code="GI" iso="292" latitude="36.1833" longitude="-5.3667" name="Gibraltar" population="28765"/>
+    <country area="131940" code="GR" iso="300" latitude="39.0000" longitude="22.0000" name="Greece" population="10538594"/>
+    <country area="2175600" code="GL" iso="304" latitude="72.0000" longitude="-40.0000" name="Greenland" population="58203"/>
+    <country area="340" code="GD" iso="308" latitude="12.1167" longitude="-61.6667" name="Grenada" population="94961"/>
+    <country area="1780" code="GP" iso="312" latitude="16.2500" longitude="-61.5833" name="Guadeloupe" population="407768">
+        <language percentage="99">French</language>
+    </country>
+    <country area="541.3" code="GU" iso="316" latitude="13.4667" longitude="144.7833" name="Guam" population="156974"/>
+    <country area="108890" code="GT" iso="320" latitude="15.5000" longitude="-90.2500" name="Guatemala" population="11277614">
+        <language percentage="60">Spanish</language>
+        <language percentage="40">Indian</language>
+    </country>
+    <country area="245860" code="GN" iso="324" latitude="11.0000" longitude="-10.0000" name="Guinea" population="7411981">
+        <language percentage="100">French</language>
+    </country>
+    <country area="36120" code="GW" iso="624" latitude="12.0000" longitude="-15.0000" name="Guinea-Bissau" population="1151330"/>
+    <country area="214970" code="GY" iso="328" latitude="5.0000" longitude="-59.0000" name="Guyana" population="712091"/>
+    <country area="27750" code="HT" iso="332" latitude="19.0000" longitude="-72.4167" name="Haiti" population="6731539">
+        <language percentage="10">French</language>
+    </country>
+    <country area="112090" code="HN" iso="340" latitude="15.0000" longitude="-86.5000" name="Honduras" population="5605193"/>
+    <country area="93030" code="HU" iso="348" latitude="47.0000" longitude="20.0000" name="Hungary" population="10002541">
+        <city>
+            <name>Budapest</name>
+            <population>2016000</population>
+        </city>
+        <language percentage="98.2">Hungarian</language>
+    </country>
+    <country area="103000" code="IS" iso="352" latitude="65.0000" longitude="-18.0000" name="Iceland" population="270292">
+        <language percentage="100">Icelandic</language>
+    </country>
+    <country area="3287590" code="IN" iso="356" latitude="20.0000" longitude="77.0000" name="India" population="952107712">
+        <city>
+            <name>Hyderabad</name>
+            <population>3145939</population>
+        </city>
+        <city>
+            <name>Ahmadabad</name>
+            <population>2954526</population>
+        </city>
+        <city>
+            <name>Surat</name>
+            <population>1505872</population>
+        </city>
+        <city>
+            <name>Vadodara</name>
+            <population>1061598</population>
+        </city>
+        <city>
+            <name>Bangalore</name>
+            <population>3302296</population>
+        </city>
+        <city>
+            <name>Bhopal</name>
+            <population>1062771</population>
+        </city>
+        <city>
+            <name>Indore</name>
+            <population>1091674</population>
+        </city>
+        <city>
+            <name>Mumbai</name>
+            <population>9925891</population>
+        </city>
+        <city>
+            <name>Nagpur</name>
+            <population>1624752</population>
+        </city>
+        <city>
+            <name>Pune</name>
+            <population>1566651</population>
+        </city>
+        <city>
+            <name>Kalyan</name>
+            <population>1014557</population>
+        </city>
+        <city>
+            <name>Ludhiana</name>
+            <population>1042740</population>
+        </city>
+        <city>
+            <name>Jaipur</name>
+            <population>1458183</population>
+        </city>
+        <city>
+            <name>Madras</name>
+            <population>3841396</population>
+        </city>
+        <city>
+            <name>Lucknow</name>
+            <population>1619115</population>
+        </city>
+        <city>
+            <name>Kanpur</name>
+            <population>1879420</population>
+        </city>
+        <city>
+            <name>Calcutta</name>
+            <population>4399819</population>
+        </city>
+        <city>
+            <name>New Delhi</name>
+            <population>7206704</population>
+        </city>
+        <language percentage="30">Hindi</language>
+    </country>
+    <country area="1919440" code="ID" iso="360" latitude="-5.0000" longitude="120.0000" name="Indonesia" population="206611600">
+        <city>
+            <name>Jakarta</name>
+            <population>8259266</population>
+        </city>
+        <city>
+            <name>Bandung</name>
+            <population>2058649</population>
+        </city>
+        <city>
+            <name>Semarang</name>
+            <population>1250971</population>
+        </city>
+        <city>
+            <name>Surabaya</name>
+            <population>2483871</population>
+        </city>
+        <city>
+            <name>Palembang</name>
+            <population>1144279</population>
+        </city>
+        <city>
+            <name>Medan</name>
+            <population>1730752</population>
+        </city>
+    </country>
+    <country area="1648000" code="IR" iso="364" latitude="32.0000" longitude="53.0000" name="Iran" population="66094264">
+        <city>
+            <name>Tabriz</name>
+            <population>1166203</population>
+        </city>
+        <city>
+            <name>Esfahan</name>
+            <population>1220595</population>
+        </city>
+        <city>
+            <name>Shiraz</name>
+            <population>1042801</population>
+        </city>
+        <city>
+            <name>Mashhad</name>
+            <population>1964489</population>
+        </city>
+        <city>
+            <name>Tehran</name>
+            <population>6750043</population>
+        </city>
+        <language percentage="1">Turkish</language>
+        <language percentage="1">Baloch</language>
+        <language percentage="9">Kurdish</language>
+        <language percentage="1">Arabic</language>
+        <language percentage="2">Luri</language>
+        <language percentage="58">Persian Persian</language>
+        <language percentage="26">Turkic Turkic</language>
+    </country>
+    <country area="437072" code="IQ" iso="368" latitude="33.0000" longitude="44.0000" name="Iraq" population="21422292">
+        <city>
+            <name>Baghdad</name>
+            <population>4478000</population>
+        </city>
+    </country>
+    <country area="70280" code="IE" iso="372" latitude="53.0000" longitude="-8.0000" name="Ireland" population="3566833"/>
+    <country area="20770" code="IL" iso="376" latitude="31.5000" longitude="34.7500" name="Israel" population="5421995"/>
+    <country area="301230" code="IT" iso="380" latitude="42.8333" longitude="12.8333" name="Italy" population="57460272">
+        <city>
+            <name>Milano</name>
+            <population>1432184</population>
+        </city>
+        <city>
+            <name>Rome</name>
+            <population>2791354</population>
+        </city>
+        <city>
+            <name>Napoli</name>
+            <population>1206013</population>
+        </city>
+    </country>
+    <country area="10990" code="JM" iso="388" latitude="18.2500" longitude="-77.5000" name="Jamaica" population="2595275"/>
+    <country area="377835" code="JP" iso="392" latitude="36.0000" longitude="138.0000" name="Japan" population="125449704">
+        <city>
+            <name>Sapporo</name>
+            <population>1748000</population>
+        </city>
+        <city>
+            <name>Tokyo</name>
+            <population>7843000</population>
+        </city>
+        <city>
+            <name>Yokohama</name>
+            <population>3256000</population>
+        </city>
+        <city>
+            <name>Kawasaki</name>
+            <population>1187000</population>
+        </city>
+        <city>
+            <name>Nagoya</name>
+            <population>2108000</population>
+        </city>
+        <city>
+            <name>Kyoto</name>
+            <population>1415000</population>
+        </city>
+        <city>
+            <name>Osaka</name>
+            <population>2492000</population>
+        </city>
+        <city>
+            <name>Kobe</name>
+            <population>1388000</population>
+        </city>
+        <city>
+            <name>Hiroshima</name>
+            <population>1099000</population>
+        </city>
+        <city>
+            <name>Fukuoka</name>
+            <population>1273000</population>
+        </city>
+        <city>
+            <name>Kita kyushu</name>
+            <population>1012000</population>
+        </city>
+        <language percentage="100">Japanese</language>
+    </country>
+    <country area="89213" code="JO" iso="400" latitude="31.0000" longitude="36.0000" name="Jordan" population="4212152"/>
+    <country area="2717300" code="KZ" iso="398" latitude="48.0000" longitude="68.0000" name="Kazakstan" population="16916464">
+        <city>
+            <name>Almaty</name>
+            <population>1172400</population>
+        </city>
+        <language percentage="40">Kazak</language>
+    </country>
+    <country area="582650" code="KE" iso="404" latitude="1.0000" longitude="38.0000" name="Kenya" population="28176686">
+        <city>
+            <name>Nairobi</name>
+            <population>2000000</population>
+        </city>
+    </country>
+    <country area="717" code="KI" iso="296" latitude="1.4167" longitude="173.0000" name="Kiribati" population="80919"/>
+    <country area="17820" code="KW" iso="414" latitude="29.3375" longitude="47.6581" name="Kuwait" population="1950047"/>
+    <country area="198500" code="KG" iso="417" latitude="41.0000" longitude="75.0000" name="Kyrgyzstan" population="4529648"/>
+    <country area="236800" code="LA" iso="418" latitude="18.0000" longitude="105.0000" name="Laos" population="4975772"/>
+    <country area="64100" code="LV" iso="428" latitude="57.0000" longitude="25.0000" name="Latvia" population="2468982"/>
+    <country area="10400" code="LB" iso="422" latitude="33.8333" longitude="35.8333" name="Lebanon" population="3776317"/>
+    <country area="30350" code="LS" iso="426" latitude="-29.5000" longitude="28.5000" name="Lesotho" population="1970781"/>
+    <country area="111370" code="LR" iso="430" latitude="6.5000" longitude="-9.5000" name="Liberia" population="2109789">
+        <language percentage="20">English</language>
+    </country>
+    <country area="1759540" code="LY" iso="434" latitude="25.0000" longitude="17.0000" name="Libya" population="5445436"/>
+    <country area="160" code="LI" iso="438" latitude="47.1667" longitude="9.5333" name="Liechtenstein" population="31122"/>
+    <country area="65200" code="LT" iso="440" latitude="56.0000" longitude="24.0000" name="Lithuania" population="3646041"/>
+    <country area="2586" code="LU" iso="442" latitude="49.7500" longitude="6.1667" name="Luxembourg" population="415870"/>
+    <country area="16" code="MO" iso="446" latitude="22.1667" longitude="113.5500" name="Macau" population="496837">
+        <language percentage="4">Portuguese</language>
+    </country>
+    <country area="25333" code="MK" iso="807" latitude="41.8333" longitude="22.0000" name="Macedonia" population="2104035">
+        <language percentage="21">Albanian</language>
+        <language percentage="70">Macedonian</language>
+        <language percentage="3">Turkish</language>
+        <language percentage="3">Serbo-Croatian</language>
+    </country>
+    <country area="587040" code="MG" iso="450" latitude="-20.0000" longitude="47.0000" name="Madagascar" population="13670507">
+        <city>
+            <name>Antananarivo</name>
+            <population>1250000</population>
+        </city>
+    </country>
+    <country area="118480" code="MW" iso="454" latitude="-13.5000" longitude="34.0000" name="Malawi" population="9452844"/>
+    <country area="329750" code="MY" iso="458" latitude="2.5000" longitude="112.5000" name="Malaysia" population="19962892">
+        <city>
+            <name>Kuala Lumpur</name>
+            <population>1145075</population>
+        </city>
+    </country>
+    <country area="300" code="MV" iso="462" latitude="3.2500" longitude="73.0000" name="Maldives" population="270758"/>
+    <country area="1240000" code="ML" iso="466" latitude="17.0000" longitude="-4.0000" name="Mali" population="9653261">
+        <language percentage="80">Bambara</language>
+    </country>
+    <country area="320" code="MT" iso="470" latitude="35.8333" longitude="14.5833" name="Malta" population="375576"/>
+    <country area="181.3" code="MH" iso="584" latitude="9.0000" longitude="168.0000" name="Marshall Islands" population="58363"/>
+    <country area="1100" code="MQ" iso="474" latitude="14.6667" longitude="-61.0000" name="Martinique" population="399151"/>
+    <country area="1030700" code="MR" iso="478" latitude="20.0000" longitude="-12.0000" name="Mauritania" population="2336048"/>
+    <country area="1860" code="MU" iso="480" latitude="-20.2833" longitude="57.5500" name="Mauritius" population="1140256"/>
+    <country area="375" code="YT" iso="175" latitude="-12.8333" longitude="45.1667" name="Mayotte" population="100838"/>
+    <country area="1972550" code="MX" iso="484" latitude="23.0000" longitude="-102.0000" name="Mexico" population="95772464">
+        <city>
+            <name>Nezahualcoyotl</name>
+            <population>1255456</population>
+        </city>
+        <city>
+            <name>Guadalajara</name>
+            <population>1650042</population>
+        </city>
+        <city>
+            <name>Monterrey</name>
+            <population>1068996</population>
+        </city>
+        <city>
+            <name>Puebla</name>
+            <population>1007170</population>
+        </city>
+        <city>
+            <name>Mexico</name>
+            <population>9815795</population>
+        </city>
+    </country>
+    <country area="1.9" code="MC" iso="492" latitude="43.7333" longitude="7.4000" name="Monaco" population="31719"/>
+    <country area="1565000" code="MN" iso="496" latitude="46.0000" longitude="105.0000" name="Mongolia" population="2496617">
+        <language percentage="90">Khalkha Mongol</language>
+    </country>
+    <country area="100" code="MS" iso="500" latitude="16.7500" longitude="-62.2000" name="Montserrat" population="12771">
+        <language percentage="100">English</language>
+    </country>
+    <country area="446550" code="MA" iso="504" latitude="32.0000" longitude="-5.0000" name="Morocco" population="29779156">
+        <city>
+            <name>Rabat</name>
+            <population>1385872</population>
+        </city>
+        <city>
+            <name>Casablanca</name>
+            <population>2940623</population>
+        </city>
+    </country>
+    <country area="801590" code="MZ" iso="508" latitude="-18.2500" longitude="35.0000" name="Mozambique" population="17877928">
+        <language percentage="100">Portuguese</language>
+    </country>
+    <country area="825418" code="NA" iso="516" latitude="-22.0000" longitude="17.0000" name="Namibia" population="1677243">
+        <language percentage="32">German</language>
+        <language percentage="7">English</language>
+        <language percentage="60">Afrikaans</language>
+    </country>
+    <country area="21" code="NR" iso="520" latitude="-0.5333" longitude="166.9167" name="Nauru" population="10273"/>
+    <country area="140800" code="NP" iso="524" latitude="28.0000" longitude="84.0000" name="Nepal" population="22094032">
+        <language percentage="100">Nepali</language>
+    </country>
+    <country area="37330" code="NL" iso="528" latitude="52.5000" longitude="5.7500" name="Netherlands" population="15568034">
+        <city>
+            <name>Amsterdam</name>
+            <population>1101407</population>
+        </city>
+        <city>
+            <name>Rotterdam</name>
+            <population>1078747</population>
+        </city>
+        <language percentage="100">Dutch</language>
+    </country>
+    <country area="960" code="AN" iso="530" latitude="12.2500" longitude="-68.7500" name="Netherlands Antilles" population="208968"/>
+    <country area="19060" code="NC" iso="540" latitude="-21.5000" longitude="165.5000" name="New Caledonia" population="187784"/>
+    <country area="268680" code="NZ" iso="554" latitude="-41.0000" longitude="174.0000" name="New Zealand" population="3547983"/>
+    <country area="129494" code="NI" iso="558" latitude="13.0000" longitude="-85.0000" name="Nicaragua" population="4272352">
+        <city>
+            <name>Managua</name>
+            <population>1195000</population>
+        </city>
+        <language percentage="100">Spanish</language>
+    </country>
+    <country area="1267000" code="NE" iso="562" latitude="16.0000" longitude="8.0000" name="Niger" population="9113001"/>
+    <country area="923770" code="NG" iso="566" latitude="10.0000" longitude="8.0000" name="Nigeria" population="103912488">
+        <city>
+            <name>Lagos</name>
+            <population>5686000</population>
+        </city>
+        <city>
+            <name>Ibadan</name>
+            <population>1263000</population>
+        </city>
+    </country>
+    <country area="260" code="NU" iso="570" latitude="-19.0333" longitude="-169.8667" name="Niue" population="2174"/>
+    <country area="34.6" code="NF" iso="574" latitude="-29.0333" longitude="167.9500" name="Norfolk Island" population="2209"/>
+    <country area="120540" code="KP" iso="850" latitude="40.0000" longitude="127.0000" name="North Korea" population="23904124">
+        <city>
+            <name>Pyongyang</name>
+            <population>2335000</population>
+        </city>
+        <language percentage="100">Korean</language>
+    </country>
+    <country area="477" code="MP" iso="580" latitude="15.2000" longitude="145.7500" name="Northern Mariana Islands" population="52284"/>
+    <country area="324220" code="NO" iso="578" latitude="62.0000" longitude="10.0000" name="Norway" population="4383807">
+        <language percentage="100">Norwegian</language>
+    </country>
+    <country area="212460" code="OM" iso="512" latitude="21.0000" longitude="57.0000" name="Oman" population="2186548"/>
+    <country area="803940" code="PK" iso="586" latitude="30.0000" longitude="70.0000" name="Pakistan" population="129275664">
+        <city>
+            <name>Hyderabad</name>
+            <population>1107000</population>
+        </city>
+        <city>
+            <name>Peshawar</name>
+            <population>1676000</population>
+        </city>
+        <city>
+            <name>Lahore</name>
+            <population>5085000</population>
+        </city>
+        <city>
+            <name>Karachi</name>
+            <population>9863000</population>
+        </city>
+        <city>
+            <name>Faisalabad</name>
+            <population>1875000</population>
+        </city>
+        <city>
+            <name>Gujranwala</name>
+            <population>1663000</population>
+        </city>
+        <city>
+            <name>Rawalpindi</name>
+            <population>1290000</population>
+        </city>
+        <city>
+            <name>Multan</name>
+            <population>1257000</population>
+        </city>
+        <language percentage="8">Pashtu</language>
+        <language percentage="8">Urdu</language>
+        <language percentage="48">Punjabi</language>
+        <language percentage="12">Sindhi</language>
+        <language percentage="3">Balochi</language>
+        <language percentage="2">Hindko</language>
+        <language percentage="1">Brahui</language>
+        <language percentage="10">Siraiki</language>
+    </country>
+    <country area="458" code="PW" iso="585" latitude="7.5000" longitude="134.5000" name="Palau" population="16952"/>
+    <country area="78200" code="PA" iso="591" latitude="9.0000" longitude="-80.0000" name="Panama" population="2655094">
+        <language percentage="14">English</language>
+    </country>
+    <country area="461690" code="PG" iso="598" latitude="-6.0000" longitude="147.0000" name="Papua New Guinea" population="4394537">
+        <language percentage="1">English</language>
+    </country>
+    <country area="406750" code="PY" iso="600" latitude="-23.0000" longitude="-58.0000" name="Paraguay" population="5504146"/>
+    <country area="1285220" code="PE" iso="604" latitude="-10.0000" longitude="-76.0000" name="Peru" population="24523408">
+        <city>
+            <name>Lima</name>
+            <population>6321173</population>
+        </city>
+    </country>
+    <country area="300000" code="PH" iso="608" latitude="13.0000" longitude="122.0000" name="Philippines" population="74480848">
+        <city>
+            <name>Manila</name>
+            <population>1655000</population>
+        </city>
+        <city>
+            <name>Quezon</name>
+            <population>1989000</population>
+        </city>
+        <city>
+            <name>Kalookan</name>
+            <population>1023000</population>
+        </city>
+        <city>
+            <name>Davao</name>
+            <population>1007000</population>
+        </city>
+    </country>
+    <country area="47" code="PN" iso="870" name="Pitcairn Islands" population="56"/>
+    <country area="312683" code="PL" iso="616" latitude="52.0000" longitude="20.0000" name="Poland" population="38642564">
+        <city>
+            <name>Warsaw</name>
+            <population>1655000</population>
+        </city>
+        <language percentage="100">Polish</language>
+    </country>
+    <country area="92080" code="PT" iso="620" latitude="39.5000" longitude="-8.0000" name="Portugal" population="9865114">
+        <language percentage="100">Portuguese</language>
+    </country>
+    <country area="9104" code="PR" iso="630" latitude="18.2500" longitude="-66.5000" name="Puerto Rico" population="3819023"/>
+    <country area="11000" code="QA" iso="634" latitude="25.5000" longitude="51.2500" name="Qatar" population="547761"/>
+    <country area="2510" code="RE" iso="638" latitude="-21.1000" longitude="55.6000" name="Reunion" population="679198"/>
+    <country area="237500" code="RO" iso="642" latitude="46.0000" longitude="25.0000" name="Romania" population="21657162">
+        <city>
+            <name>Bucharest</name>
+            <population>2037000</population>
+        </city>
+    </country>
+    <country area="17075200" code="RU" iso="643" latitude="60.0000" longitude="100.0000" name="Russia" population="148178480">
+        <city>
+            <name>Sankt Peterburg</name>
+            <population>4838000</population>
+        </city>
+        <city>
+            <name>Moscow</name>
+            <population>8717000</population>
+        </city>
+        <city>
+            <name>Nizhniy Novgorod</name>
+            <population>1383000</population>
+        </city>
+        <city>
+            <name>Kazan</name>
+            <population>1085000</population>
+        </city>
+        <city>
+            <name>Volgograd</name>
+            <population>1003000</population>
+        </city>
+        <city>
+            <name>Samara</name>
+            <population>1184000</population>
+        </city>
+        <city>
+            <name>Rostov na Donu</name>
+            <population>1026000</population>
+        </city>
+        <city>
+            <name>Ufa</name>
+            <population>1094000</population>
+        </city>
+        <city>
+            <name>Perm</name>
+            <population>1032000</population>
+        </city>
+        <city>
+            <name>Yekaterinburg</name>
+            <population>1280000</population>
+        </city>
+        <city>
+            <name>Chelyabinsk</name>
+            <population>1086000</population>
+        </city>
+        <city>
+            <name>Novosibirsk</name>
+            <population>1369000</population>
+        </city>
+        <city>
+            <name>Omsk</name>
+            <population>1163000</population>
+        </city>
+        <language percentage="100">Russian</language>
+    </country>
+    <country area="26340" code="RW" iso="646" latitude="-2.0000" longitude="30.0000" name="Rwanda" population="6853359"/>
+    <country area="410" code="SH" iso="654" latitude="-15.9333" longitude="-5.7000" name="Saint Helena" population="6782">
+        <language percentage="100">English</language>
+    </country>
+    <country area="620" code="LC" iso="662" latitude="13.8833" longitude="-61.1333" name="Saint Lucia" population="157862"/>
+    <country area="242" code="PM" iso="666" latitude="46.8333" longitude="-56.3333" name="Saint Pierre and Miquelon" population="6809">
+        <language percentage="100">French</language>
+    </country>
+    <country area="340" code="VC" iso="670" latitude="13.2500" longitude="-61.2000" name="Saint Vincent and the Grenadines" population="118344"/>
+    <country area="60" code="SM" iso="674" latitude="43.7667" longitude="12.4167" name="San Marino" population="24521">
+        <language percentage="100">Italian</language>
+    </country>
+    <country area="960" code="ST" iso="678" latitude="1.0000" longitude="7.0000" name="Sao Tome and Principe" population="144128">
+        <language percentage="100">Portuguese</language>
+    </country>
+    <country area="1960582" code="SA" iso="682" latitude="25.0000" longitude="45.0000" name="Saudi Arabia" population="19409058">
+        <city>
+            <name>Riyadh</name>
+            <population>1250000</population>
+        </city>
+        <language percentage="100">Arabic</language>
+    </country>
+    <country area="196190" code="SN" iso="686" latitude="14.0000" longitude="-14.0000" name="Senegal" population="9092749">
+        <city>
+            <name>Dakar</name>
+            <population>1382000</population>
+        </city>
+    </country>
+    <country area="455" code="SC" iso="690" latitude="-4.5833" longitude="55.6667" name="Seychelles" population="77575"/>
+    <country area="71740" code="SL" iso="694" latitude="8.5000" longitude="-11.5000" name="Sierra Leone" population="4793121"/>
+    <country area="632.6" code="SG" iso="702" latitude="1.3667" longitude="103.8000" name="Singapore" population="3396924">
+        <city>
+            <name>Singapore</name>
+            <population>2558000</population>
+        </city>
+    </country>
+    <country area="48845" code="SK" iso="703" latitude="48.6667" longitude="19.5000" name="Slovakia" population="5374362"/>
+    <country area="20256" code="SI" iso="705" latitude="46.0000" longitude="15.0000" name="Slovenia" population="1951443">
+        <language percentage="91">Slovenian</language>
+        <language percentage="7">Serbo-Croatian</language>
+    </country>
+    <country area="28450" code="SB" iso="90" latitude="-8.0000" longitude="159.0000" name="Solomon Islands" population="412902">
+        <language percentage="1">English</language>
+    </country>
+    <country area="637660" code="SO" iso="706" latitude="10.0000" longitude="49.0000" name="Somalia" population="9639151"/>
+    <country area="1219912" code="ZA" iso="710" latitude="-29.0000" longitude="24.0000" name="South Africa" population="41743460"/>
+    <country area="98480" code="KR" iso="82" latitude="37.0000" longitude="127.5000" name="South Korea" population="45482292">
+        <city>
+            <name>Seoul</name>
+            <population>10229262</population>
+        </city>
+        <city>
+            <name>Pusan</name>
+            <population>3813814</population>
+        </city>
+        <city>
+            <name>Taegu</name>
+            <population>2449139</population>
+        </city>
+        <city>
+            <name>Inchon</name>
+            <population>2307618</population>
+        </city>
+        <city>
+            <name>Kwangju</name>
+            <population>1257504</population>
+        </city>
+        <city>
+            <name>Taejon</name>
+            <population>1272143</population>
+        </city>
+    </country>
+    <country area="504750" code="ES" iso="724" latitude="40.0000" longitude="-4.0000" name="Spain" population="39181112">
+        <city>
+            <name>Barcelona</name>
+            <population>1630867</population>
+        </city>
+        <city>
+            <name>Madrid</name>
+            <population>3041101</population>
+        </city>
+        <language percentage="17">Catalan</language>
+        <language percentage="7">Galician</language>
+        <language percentage="2">Basque</language>
+    </country>
+    <country area="65610" code="LK" iso="144" latitude="7.0000" longitude="81.0000" name="Sri Lanka" population="18553074">
+        <language percentage="18">Tamil</language>
+        <language percentage="74">Sinhala</language>
+    </country>
+    <country area="2505810" code="SD" iso="736" latitude="15.0000" longitude="30.0000" name="Sudan" population="31547544">
+        <city>
+            <name>Omdurman</name>
+            <population>1267077</population>
+        </city>
+    </country>
+    <country area="163270" code="SR" iso="740" latitude="4.0000" longitude="-56.0000" name="Suriname" population="436418"/>
+    <country area="62049" code="SJ" iso="744" latitude="78.0000" longitude="20.0000" name="Svalbard" population="2715"/>
+    <country area="17360" code="SZ" iso="748" latitude="-26.5000" longitude="31.5000" name="Swaziland" population="998730"/>
+    <country area="449964" code="SE" iso="752" latitude="62.0000" longitude="15.0000" name="Sweden" population="8900954">
+        <language percentage="100">Swedish</language>
+    </country>
+    <country area="41290" code="CH" iso="756" latitude="47.0000" longitude="8.0000" name="Switzerland" population="7207060">
+        <language percentage="18">French</language>
+        <language percentage="65">German</language>
+        <language percentage="12">Italian</language>
+        <language percentage="1">Romansch</language>
+    </country>
+    <country area="185180" code="SY" iso="760" latitude="35.0000" longitude="38.0000" name="Syria" population="15608648">
+        <city>
+            <name>Damascus</name>
+            <population>1500000</population>
+        </city>
+    </country>
+    <country area="35980" code="TW" iso="158" latitude="23.5000" longitude="121.0000" name="Taiwan" population="21465880">
+        <city>
+            <name>Kaohsiung</name>
+            <population>1426518</population>
+        </city>
+        <city>
+            <name>Taipei</name>
+            <population>2626138</population>
+        </city>
+    </country>
+    <country area="143100" code="TJ" iso="762" latitude="39.0000" longitude="71.0000" name="Tajikistan" population="5916373"/>
+    <country area="945090" code="TZ" iso="834" latitude="-6.0000" longitude="35.0000" name="Tanzania" population="29058470">
+        <city>
+            <name>Dar es Salaam</name>
+            <population>1360850</population>
+        </city>
+    </country>
+    <country area="514000" code="TH" iso="764" latitude="15.0000" longitude="100.0000" name="Thailand" population="58851356">
+        <city>
+            <name>Bangkok</name>
+            <population>5876000</population>
+        </city>
+    </country>
+    <country area="56790" code="TG" iso="768" latitude="8.0000" longitude="1.1667" name="Togo" population="4570530"/>
+    <country area="748" code="TO" iso="776" latitude="-20.0000" longitude="-175.0000" name="Tonga" population="106466"/>
+    <country area="5130" code="TT" iso="780" latitude="11.0000" longitude="-61.0000" name="Trinidad and Tobago" population="1272385"/>
+    <country area="163610" code="TN" iso="788" latitude="34.0000" longitude="9.0000" name="Tunisia" population="9019687"/>
+    <country area="780580" code="TR" iso="792" latitude="39.0000" longitude="35.0000" name="Turkey" population="62484480">
+        <city>
+            <name>Adana</name>
+            <population>1047300</population>
+        </city>
+        <city>
+            <name>Ankara</name>
+            <population>2782200</population>
+        </city>
+        <city>
+            <name>Istanbul</name>
+            <population>7615500</population>
+        </city>
+        <city>
+            <name>Izmir</name>
+            <population>1985300</population>
+        </city>
+    </country>
+    <country area="488100" code="TM" iso="795" latitude="40.0000" longitude="60.0000" name="Turkmenistan" population="4149283">
+        <language percentage="12">Russian</language>
+        <language percentage="9">Uzbek</language>
+        <language percentage="72">Turkmen</language>
+    </country>
+    <country area="430" code="TC" iso="796" latitude="21.7500" longitude="-71.5833" name="Turks and Caicos Islands" population="14302">
+        <language percentage="100">English</language>
+    </country>
+    <country area="26" code="TV" iso="798" latitude="-8.0000" longitude="178.0000" name="Tuvalu" population="10146"/>
+    <country area="236040" code="UG" iso="800" latitude="1.0000" longitude="32.0000" name="Uganda" population="20158176"/>
+    <country area="603700" code="UA" iso="804" latitude="49.0000" longitude="32.0000" name="Ukraine" population="50864008">
+        <city>
+            <name>Dnipropetrovsk</name>
+            <population>1187000</population>
+        </city>
+        <city>
+            <name>Donetsk</name>
+            <population>1117000</population>
+        </city>
+        <city>
+            <name>Kharkiv</name>
+            <population>1618000</population>
+        </city>
+        <city>
+            <name>Kiev</name>
+            <population>2616000</population>
+        </city>
+        <city>
+            <name>Odesa</name>
+            <population>1106000</population>
+        </city>
+    </country>
+    <country area="75581" code="AE" iso="784" latitude="24.0000" longitude="54.0000" name="United Arab Emirates" population="3057337"/>
+    <country area="244820" code="GB" iso="826" latitude="54.0000" longitude="-2.0000" name="United Kingdom" population="58489976">
+        <city>
+            <name>London</name>
+            <population>6967500</population>
+        </city>
+        <city>
+            <name>Birmingham</name>
+            <population>1008400</population>
+        </city>
+    </country>
+    <country area="9372610" code="US" iso="840" latitude="38.0000" longitude="-97.0000" name="United States" population="266476272">
+        <city>
+            <name>Phoenix</name>
+            <population>1159014</population>
+        </city>
+        <city>
+            <name>Los Angeles</name>
+            <population>3553638</population>
+        </city>
+        <city>
+            <name>San Diego</name>
+            <population>1171121</population>
+        </city>
+        <city>
+            <name>Chicago</name>
+            <population>2721547</population>
+        </city>
+        <city>
+            <name>Detroit</name>
+            <population>1000272</population>
+        </city>
+        <city>
+            <name>New York</name>
+            <population>7380906</population>
+        </city>
+        <city>
+            <name>Philadelphia</name>
+            <population>1478002</population>
+        </city>
+        <city>
+            <name>Houston</name>
+            <population>1744058</population>
+        </city>
+        <city>
+            <name>San Antonio</name>
+            <population>1067816</population>
+        </city>
+        <city>
+            <name>Dallas</name>
+            <population>1053292</population>
+        </city>
+    </country>
+    <country area="176220" code="UY" iso="858" latitude="-33.0000" longitude="-56.0000" name="Uruguay" population="3238952">
+        <city>
+            <name>Montevideo</name>
+            <population>1247000</population>
+        </city>
+    </country>
+    <country area="447400" code="UZ" iso="860" latitude="41.0000" longitude="64.0000" name="Uzbekistan" population="23418380">
+        <city>
+            <name>Tashkent</name>
+            <population>2106000</population>
+        </city>
+        <language percentage="14.2">Russian</language>
+        <language percentage="4.4">Tajik</language>
+        <language percentage="74.3">Uzbek</language>
+    </country>
+    <country area="14760" code="VU" iso="548" latitude="-16.0000" longitude="167.0000" name="Vanuatu" population="177504"/>
+    <country area="912050" code="VE" iso="862" latitude="8.0000" longitude="-66.0000" name="Venezuela" population="21983188">
+        <city>
+            <name>Maracaibo</name>
+            <population>1249670</population>
+        </city>
+        <city>
+            <name>Caracas</name>
+            <population>1822465</population>
+        </city>
+    </country>
+    <country area="329560" code="VN" iso="704" latitude="16.0000" longitude="106.0000" name="Vietnam" population="73976976">
+        <city>
+            <name>Hanoi</name>
+            <population>3056146</population>
+        </city>
+        <city>
+            <name>Haiphong</name>
+            <population>1447523</population>
+        </city>
+        <city>
+            <name>Ho Chi Minh City</name>
+            <population>3924435</population>
+        </city>
+    </country>
+    <country area="352" code="VI" iso="850" latitude="18.3333" longitude="-64.8333" name="Virgin Islands" population="97120"/>
+    <country area="266000" code="EH" iso="732" latitude="24.5000" longitude="-13.0000" name="Western Sahara" population="222631"/>
+    <country area="527970" code="YE" iso="887" latitude="15.0000" longitude="48.0000" name="Yemen" population="13483178">
+        <language percentage="100">Arabic</language>
+    </country>
+    <country area="2345410" code="ZR" iso="180" name="Zaire" population="46498540">
+        <city>
+            <name>Kinshasa</name>
+            <population>4655313</population>
+        </city>
+    </country>
+    <country area="752610" code="ZM" iso="894" latitude="-15.0000" longitude="30.0000" name="Zambia" population="9159072"/>
+    <country area="390580" code="ZW" iso="716" latitude="-20.0000" longitude="30.0000" name="Zimbabwe" population="11271314"/>
+</countries>

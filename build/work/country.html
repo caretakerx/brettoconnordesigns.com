@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<title>Countries</title>
+
+<!-- You need to get your own google api key -->
+<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWSzj6fR_kCkTQ0U3oaYGLCyWVhsp5oj8&sensor=true">
+</script>
+<script type="text/javascript">
+        jQuery(window).ready(function(){
+            jQuery("#btnInit").click(initiate_geolocation);
+        });
+ 
+        function initiate_geolocation() {
+            navigator.geolocation.getCurrentPosition(handle_geolocation_query,handle_errors);
+        }
+ 
+        function handle_errors(error)
+        {
+            switch(error.code)
+            {
+                case error.PERMISSION_DENIED: alert("user did not share geolocation data");
+                break;
+ 
+                case error.POSITION_UNAVAILABLE: alert("could not detect current position");
+                break;
+ 
+                case error.TIMEOUT: alert("retrieving position timed out");
+                break;
+ 
+                default: alert("unknown error");
+                break;
+            }
+        }
+ 
+        function handle_geolocation_query(position){
+            alert('Lat: ' + position.coords.latitude +
+                  ' Lon: ' + position.coords.longitude);
+        }
+    </script>
+<script  type="application/javascript" >
+/* from http://www.w3schools.com/dom/loadxmldoc.js */
+var countryTags;
+var xmlDoc;	
+
+function handler() {
+  if(this.status == 200 &&
+    this.responseXML != null )
+     // success!
+    xmlDoc = this.responseXML; 
+ else 
+   alert( "Unable to load data for var xmlDoc" + this.status );
+ 
+}
+
+function loadXMLDoc(dname) 
+{
+if (window.XMLHttpRequest)
+  {
+  xhttp=new XMLHttpRequest();
+  }
+else
+  {
+  xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  
+//xhttp.onreadystatechange=function() {  alert( "Request & Response Complete" ); }
+xhttp.onload = handler; //just set xmlDoc, needs to run on its own thread, could have a stall out
+xhttp.open("GET",dname,false);
+xhttp.send();
+return xhttp.responseXML;
+}
+
+//file is on cim at /~jstudent0/map/countriesFinal.xml
+
+xmlDoc = loadXMLDoc( "country.xml" );
+xmlStates = '<?xml version="1.0" encoding="utf-8"?><states><state name="Alabama" abbreviation="AL" />  <state name="Alaska" abbreviation="AK" /><state name="Arizona" abbreviation="AZ" /><state name="Arkansas" abbreviation="AR" /> <state name="California" abbreviation="CA" /><state name="Colorado" abbreviation="CO" /><state name="Connecticut" abbreviation="CT" /><state name="Delaware" abbreviation="DE" /><state name="Florida" abbreviation="FL" /><state name="Georgia" abbreviation="GA" /><state name="Hawaii" abbreviation="HI" /><state name="Idaho" abbreviation="ID" /><state name="Illinois" abbreviation="IL" /><state name="Iowa" abbreviation="IA" /><state name="Kansas" abbreviation="KS"/><state name="Kentucky" abbreviation="KY"/><state name="Louisiana" abbreviation="LA"/><state name="Maine" abbreviation="ME"/><state name="Maryland" abbreviation="MD"/><state name="Massachussetts" abbreviation="MA"/><state name="Michigan" abbreviation="MI"/><state name="Minnesota" abbreviation="MN"/><state name="Mississippi" abbreviation="MS"/><state name="Missouri" abbreviation="MO"/><state name="Montana" abbreviation="MT"/><state name="Nebraska" abbreviation="NE"/><state name="Nevada" abbreviation="NV"/><state name="New Hampshire" abbreviation="NH"/><state name="New Jersey" abbreviation="NJ"/><state name="New Mexico" abbreviation="NM"/><state name="New York" abbreviation="NY"/><state name="North Carolina" abbreviation="NC"/><state name="North Dakota" abbreviation="ND"/><state name="Ohio" abbreviation="OH"/><state name="Oklahoma" abbreviation="OK"/><state name="Oregon" abbreviation="OR"/><state name="Pennsylvania" abbreviation="PA"/><state name="Rhode Island" abbreviation="RI"/><state name="South Carolina" abbreviation="SC"/><state name="South Dakota" abbreviation="SD"/><state name="Tennessee" abbreviation="TN"/><state name="Texas" abbreviation="TX"/><state name="Utah" abbreviation="UT"/><state name="Vermont" abbreviation="VT"/><state name="Virginia" abbreviation="VA"/><state name="Washington" abbreviation="WA"/><state name="West Virgina" abbreviation="WV"/><state name="Wisconsin" abbreviation="WI"/><state name="Wyoming" abbreviation="WY"/></states>';
+
+
+function newCountry( ){
+	var name = $('#countries').val();
+	$('#code').text( name );
+	var activeCountry = document.getElementById('countries').options[ document.getElementById('countries').selectedIndex ].value;
+	
+	var facts = document.getElementById( 'quickFacts' );
+	/* Create an HTML table with all XML Facts relative selected country */
+	facts.innerHTML = activeCountry;
+	
+	var country = xmlDoc.querySelector( 'country[name="'+ activeCountry + '"]');
+	console.log( country );
+	document.getElementById( "quickFacts" ).innerHTML =
+	"Code: " + country.getAttribute( "code" ) +
+	"<br />Name: " + country.getAttribute( "name" ) +
+	"<br />Population: " + country.getAttribute( "population" ) +
+	"<br />Area: " + country.getAttribute( "area" ) +
+	"<br />ISO: " + country.getAttribute( "iso" ) +
+	"<br />Latitude: " + country.getAttribute( "latitude" ) +
+	"<br />Longitude: " + country.getAttribute( "longitude" );
+	
+	if( name === "United States" )
+	$("#states").show();
+	else
+	$("#states").hide();
+	
+	
+	var iframe = document.getElementById( 'wikipedia' );
+		
+	iframe.src = "http://en.wikipedia.org/wiki/" + activeCountry;
+	
+	document.getElementById( 'google' ).src = "http://www.google.com?q=" + activeCountry;
+	googleMap( activeCountry );
+}
+
+$(document).ready( function() {
+  
+  
+$( '#countries' ).change( newCountry );
+newCountry( ); //call once to set states
+  
+//populate stats newCountry shows or hides
+
+$(xmlStates).find( "state" ).each(
+function( index, element ) {
+  //going to skip the new option object
+  console.log( index + ":" + $(this).attr("name") );
+  $('#states').append(
+  '<option value="' + $(this).attr("name") + '">'+ $(this).attr("abbreviation") + "</option>" );
+    }
+); //end each state
+  
+$('#states').change( function( e ) {
+    
+$('#stateName').text( $('#states').val() );
+    //console.log( $('#states').val() );
+  });
+ 
+});
+
+
+function googleMap( activeCountry )
+{
+	//
+	var country = xmlDoc.querySelector( 'country[name="'+ activeCountry + '"]');
+	var latitude = country.getAttribute( "latitude" );
+	var longitude = country.getAttribute( "longitude" );
+	
+	/** Traverse XML data match countryTags, 
+	using correct country node find latitude and longitude  */
+
+   var myOptions = {
+        center: new google.maps.LatLng( latitude, longitude ),
+        zoom: 6,
+        mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+   
+   var map = new google.maps.Map(document.getElementById("map"), myOptions);	
+}
+
+function invertColor()  {
+var d = document.getElementById('quickFacts');
+var computedStyle = getComputedStyle ( d );
+var fg = (d.style.color ? d.style.color:computedStyle.getPropertyValue('color'));
+var bg = (d.style.backgroundColor ? d.style.backgroundColor:computedStyle.getPropertyValue('background-color'));
+var fs = (d.style.fontSize ? d.style.fontSize:computedStyle.getPropertyValue('font-size'));
+var ff = (d.style.fontFamily ? d.style.fontFamily:computedStyle.getPropertyValue('font-family'));
+d.style.color = bg; d.style.backgroundColor = fg; d.style.fontSize = fs; d.style.fontFamily = ff;
+document.getElementById("quickFacts").style.color = "black";
+document.getElementById("quickFacts").style.backgroundColor = "gray";
+document.getElementById("quickFacts").style.fontSize = "small";
+document.getElementById("quickFacts").style.fontFamily = "sans-serif";
+}
+
+function showCode( )
+{
+	alert( 
+	" var d=document.getElementById( 'quickFacts' );\n"
+	+ " var computedStyle = getComputedStyle( d );\n"
+	+ " var fg = (d.style.color ? d.style.color : computedStyle.getPropertyValue( 'color') );\n"
+	+ " var bg = (d.style.backgroundColor ? d.style.backgroundColor : computedStyle.getPropertyValue( 'background-color' ) );\n"
+	+ " var fs = (d.style.fontSize ? d.style.fontSize:computedStyle.getPropertyValue('font-size'));\n"
+	+ " var ff = (d.style.fontFamily ? d.style.fontFamily:computedStyle.getPropertyValue('font-family'));\n"
+	+ " d.style.color = bg;  d.style.backgroundColor = fg; d.style.fontSize = fs; d.style.fontFamily = ff;\n"
+	+ " document.getElementById('quickFacts').style.color = 'black';\n"
+	+ " document.getElementById('quickFacts').style.backgroundColor = 'gray';\n"
+	+ " document.getElementById('quickFacts').style.fontSize = 'small';\n"
+	+ " document.getElementById('quickFacts').style.fontFamily = 'sans-serif';\n" );
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div id="controlPanel" >
+<select onchange="newCountry()" id="countries" name="countries">
+
+<script  type="application/javascript" >
+
+countryTags = xmlDoc.getElementsByTagName( "country" );
+
+for( i=0; i < countryTags.length ; ++i ) {
+	y = countryTags[i].attributes;
+	for( j=0; j < y.length ; ++j )
+		if( y[j].name == "name" )
+		  document.writeln( "<option>" + y[j].value  +"</option>" );
+}
+
+</script>
+</select>
+<select id="states">
+</select>
+<input type="button" onClick="invertColor();" value="Click Here" />
+<input type="button" onClick="showCode();" value="Show Code" />
+<button style="position:absolute; top:35px; left: 229px;" id="btnInit" >Find my location</button>
+</div>
+<div id="google">
+</div>
+<div style="position:absolute; top:50px; width:50%; height:10em; left: 8px;" id="quickFacts"></div>
+<div id="stateName" ></div>
+<div style="position:absolute; top:20px; left:50%; width:50%; height:10em; background-color:blue;" id="map"></div>
+<div style="position:absolute; top:230px; height:511px; width:1156px; left: 9px;" id="wikiPediaOutput" >
+<iframe  id="wikipedia" src="http://www.wikipedia.com" height="100%" width="100%"  />
+</div>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Websites  Calculation</title>
+   <link rel="stylesheet" media="screen and (max-width: 999px)" href="calculatejquery.css" />
+   <link rel="stylesheet" media="screen and (min-width: 1000px)" href="calculatejquery2.css" />
+   <link href="http://fonts.googleapis.com/css?family=Mr+Bedfort" rel="stylesheet" type="text/css">
+   <script src="modernizr.custom.05819.js"></script>
+</head>
+
+<body>
+      <header>
+         <h1>
+            Website Prices
+         </h1>
+      </header>
+   <article>
+         <h2>Calculate</h2>
+         <form id="calculateform">
+            <fieldset>
+               <legend><span>Websites</span></legend>
+               <input type="number" min="0" max="4" id="websitenumber" value="1" />
+               <label for="websitenumber">
+                  <p># of Web Designers (1&#8209;4)</p>
+                  <p>$200/hr</p>
+               </label>
+
+               <input type="number" min="2" id="websitehours" value="2" />
+               <label for="websitehours">
+                  <p># of hours to design (minimum&nbsp;2)</p>
+                  <p>$100/hr</p>
+               </label>
+
+               <input type="checkbox" id="site" value="false" />
+               <label for="site">
+                  <p>Site</p>
+                  <p>$250</p>
+               </label>
+
+               <input type="checkbox" id="reprodsites" value="false" />
+               <label for="reprodsites">
+                  <p>Reproduction rights for all sites</p>
+                  <p>$1250</p>
+               </label>
+            </fieldset>
+            <fieldset>
+               <legend><span>Distance</span></legend>
+               <input type="number" id="distance" value="0" />
+               <label for="distance">
+                  <p>Arrange a meeting San Diego, Ca</p>
+                  <p>$1/mi per web site designer</p>
+               </label>
+            </fieldset>
+            <p>Total Price: <span id="calculate"></span></p>
+            <input type="reset" />
+         </form>
+      </article>
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+   <script src="calculatejquery.js"></script>
+</body>
+</html>
