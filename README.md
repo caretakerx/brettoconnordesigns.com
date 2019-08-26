@@ -1,1 +1,1 @@
-# brettoconnordesigns.com build with React.
+# brettoconnordesigns.com build built with React.
